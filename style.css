@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/*******************************Nav Bar********************************************/
+.navbar-brand img {
+    width: 150px;
+    height: 60px;
+}
+.navbar-nav li a:hover{
+    color: #C3073F !important;
+}
+.nav-item{
+    margin: 0 40px;
+}
+/***************************Hero Section**************************************************/
+#heroColor{
+    background: #1C1F30;
+    padding-top: 5%;
+}
+h1{
+    color: white;
+}
+.heroAdjust{
+    margin-top: 100px;
+}
+.animate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/************************************The Fly Section**************************************/
+.pink{
+    background: #C3073F;
+}
+.PinkContainer{
+    width: 100%;
+    height: 600px;
+    background: #C3073F;
+    padding: 50px;
+}
+
+.Movers img{
+    width: 100%;
+    height: 600px;
+}
+/************************************Our Services**************************************/
+.Our{
+    width: 100%;
+    height: 200px;
+}
+.OurServices h1{
+    text-align: center;
+    color: black;
+    padding: 50px 0;
+    font-size: 60px;
+}
+/************************************Four Section**************************************/
+.card-img-top{
+    height: 600px;
+}
+/************************************Trust Section**************************************/
+.trust{
+    height: 600px;
+}
+.moversTrust{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.threesection{
+    display: flex;
+    width: 98.2%;
+    height: 200px;
+    background: black;
+    margin: 0 auto; 
+}
+.first{
+    width: 34%;
+    height: 200px;
+    background: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    width: 34%;
+    height: 200px;
+    background: #C3073F; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.third{
+    width: 34%;
+    height: 200px;
+    background: #FFFFFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/************************************Feedback Section**************************************/
+.customerFeedback{
+    text-align: center;
+}
+/************************************Form Section*****************************************/
+.FullColor{
+    width: 100%;
+    height: 600px;
+    background: #C3073F;
+}
+.GetQ{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.GetQ h2{
+    font-size: 60px;
+}
+.GetQ p{
+    font-size: 20px;
+}
+.FormResp{
+    padding: 50px;
+}
+form label{
+    color: white;
+}
+
+/************************************Footer Section*****************************************/
+.footerSection{
+    width: 100%;
+    height: 400px;
+    background: #000000;
+}
+.packerLogo{
+    width: 150px;
+    height: 60px;
+}
+.Social{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.FooterPadding{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FooterIcon{
+    color: white;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/********************************Media Query****************************************************/
+
+
+@media only screen and (max-width: 600px) {
+    
+    .threesection{
+        flex-direction: column;
+        height: 600px;
+    }
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .third{
+        width: 100%;
+    }
+    .FullColor{
+        height: 800px;
+    }
+    .footerSection{
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 1007px){
+    .threesection{
+        flex-direction: column;
+        height: 600px;
+    }
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    }
+    .third{
+        width: 100%;
+    }
+    .FullColor{
+        height: 750px;
+    }
+    .footerSection{
+        height: 720px;
+    }
+       
+}
